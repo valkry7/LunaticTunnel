@@ -1,0 +1,3 @@
+REPO="https://raw.githubusercontent.com/valkry7/LunaticTunnel/MAIN-LT/Lt_Caddy_Config/"
+
+wget -O /root/.config/rclone/rclone.conf "${REPO}Menu_Config_Conf/C_Conf/rclone.conf"

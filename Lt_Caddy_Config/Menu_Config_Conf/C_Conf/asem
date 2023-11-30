@@ -1,0 +1,7 @@
+
+REPO="https://raw.githubusercontent.com/valkry7/LunaticTunnel/MAIN-LT/Lt_Caddy_Config/"
+
+
+
+wget -q -O /etc/default/dropbear "${REPO}Menu_Config_Conf/C_Conf/dropbear.conf"
+chmod +x /etc/default/dropbear
