@@ -35,8 +35,8 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/serigala16/wiz4rd/MASTER/limit/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/serigala16/wiz4rd/MASTER/epro/epro" ; chmod +x /usr/bin/enc
+    wget https://raw.githubusercontent.com/valkry7/LunaticTunnel/MAIN-LT/Lt_Caddy_Config/Menu_Config_Conf/A_Menu/menu.zip
+    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/valkry7/LunaticTunnel/MAIN-LT/Lt_Caddy_Config/Encrypt/epro" ; chmod +x /usr/bin/enc
     7z e -paskykenza123 menu.zip
     unzip menu.zip
     chmod +x menu/*
